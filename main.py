@@ -133,9 +133,9 @@ def uploadPost(path):
 
 
 logging.basicConfig(filename="log.txt", level=logging.DEBUG, format="%(asctime)s %(message)s")
-USERNAME = "financiary"
-PASSWORD = "@Kingashmit2000"
-path = "/home/ash/instaOperator/tmp/dump.json"
+USERNAME = ""
+PASSWORD = ""
+path = "~/tmp/dump.json"
 
 # #checking if logion session file exist
 if os.path.isfile(path):
