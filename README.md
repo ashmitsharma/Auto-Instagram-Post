@@ -19,6 +19,13 @@ Installing FFmpeg on Windows:
 6. Click "OK" on all the open windows to save the changes.
 7. To verify the installation, open a command prompt and type: `ffmpeg -version` You should see the version information displayed in the command prompt.
 
-
-Install the requirement file. Using `pip install -r requirements.txt`
-
+##Installation
+1. Git Clone the repo
+2. Go in the cloned repo folder
+3. Install the requirement file. Using `pip install -r requirements.txt`.
+4. In main.py go to line number 136 and edit the USERNAME & PASSWORD variable with your username and password.
+5. Create 4 Folders Named "DONE", "post", "reel" and tmp.
+6. In DONE folder create 2 more folders "post" & "reel".
+7. In tmp folder create a file hashtag.txt with all the hashtags you want to include in posts or reels.
+8. In main "post" & "reel" folder add posts and reels you want to upload to instagram.
+9. Just run the script and enjoy.
