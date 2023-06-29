@@ -12,8 +12,8 @@ def sendMail(message):
     try:
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
-        s.login("motivationalsuccesss1001@gmail.com", "rameimelxdythrve")
-        s.sendmail("motivationalsuccesss1001@gmail.com", "financiary@gmail.com", message)
+        s.login("login email", "secure password")
+        s.sendmail("sender email", "reciver email", message)
         s.quit()
         logging.info("Mail Sent")
     except Exception as e:
